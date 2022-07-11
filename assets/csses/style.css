@@ -1116,7 +1116,7 @@ body.switchMode .header_body_inner .left .title span {
 
 .lang_popup_close a {
 	font-size: 25px;
-	color: #34bf24;
+	color: #000;
 	position: absolute;
 	right: 10px;
 	top: 10px;
