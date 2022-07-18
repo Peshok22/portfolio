@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Я веб программист!</title>
+	<link rel="stylesheet" href="assets/csses/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Ubuntu:ital,wght@1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+
+	<header>
+		<div class="header_head">
+			<div class="container">
+				<div class="head_inner">
+					<div class="logo">Владимир</div>
+					<nav>
+						<ul>
+							<li><a href="#about">Обо мне</a></li>
+							<li><a href="#ab">Что использую</a></li>
+							<li id="LANG_BOX"><a href="#lang_popup"><img src="assets/images/language.png" alt="" id="lang_img"></a></li>
+							<li class="switch"><a href="#" ></a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+		<div class="header_body">
+			<div class="container">
+				<div class="header_body_inner">
+					<div class="left">
+						<div class="title">
+							Привет, <br>я Владимир,<br><span>Веб-программист</span>
+						</div>
+						<a href="#popup" class="btn">Связаться со мной</a>
+
+					</div>
+					<div class="right">
+						<img id="cod" src="assets/images/coder.jpg">
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<script src="jquery-3.6.0.min.js"></script>
+	<script src="script.js"></script>
+
+	<div class="find_respondes">
+		<div id="proger">Программист на заказ</div>
+		<div id="web">Веб-программист на заказ</div>
+		<div id="verst">Верстальщик на заказ</div>
+		<div id="bot">Телеграм бот на заказ</div>
+		<div id="bot2">Дискорд бот на заказ</div>
+		<div id="maket">Сайт по макету</div>
+	</div>
+
+
+
+	<section id="about">
+		<div class="container">
+			<div class="section_title">
+				Обо мне
+			</div>
+			<div class="about_text">
+				<p>Я веб-программист,верстальщик,<br>могу разработать разные сайты, по макету и без него. <br>
+					Делаю сайты с базой данных и без, разнообразный дизайн. <br>
+					Также я разрабатываю ботов для телеграма и дискорда,я есть в telegram,whatsapp.
+				</p>
+			</div>
+			<div class="about_usn" id="ab">
+				<div class="about_usn_title">Что я использую</div>
+
+				<div class="about_usn_content">
+				<div class="html"><div class="html_cont"><div class="html_title">Html 5</div><div class="html_text">Именно он является каркасом сайта,а<br> пятая версия позволяет создавать<br> более современные и оптимизированные страницы.</div></div></div>
+				<div class="css"><div class="css_title">Css 3</div><div class="css_text">Декорирует голый каркас, и даёт доступ<br> к таким технологиям как flexbox, или<br> css-grid.</div></div>
+			</div>
+			</div>
+			<div class="abb2"><div class="js"><div class="js_title">Js</div><div class="js_text">Добавляет интерактивные элементы, такие как<br> кнопки и разнообразные меню.</div></div>
+			<div class="Jq"><div class="jQ_title">jQuery</div><div class="Jq_text">Библиотека для js, которая позволяет писать<br>более оптимизированный код,и использовать другие<br>библиотеки,основаные на jQuery.</div></div> </div>
+			<div class="abb3">
+			<div class="php"><div class="php_title">PHP</div> <div class="php_content">Этот язык программирования с помощью  него подключают базу данных и работают с ней, с помощью него можно сделать систему авторизации и многое  другое.</div> </div>
+			<div class="sql"> <div class="sql_title">SQLite</div> <div class="sql_content">Это язык базы данных, именно с помощью него создают базы данных.</div> </div>
+
+		</div>
+		<br>
+
+			
+		</div>
+
+		<div class="footer">
+			<footer>
+				<div class="footer_left">
+				
+				</div>
+			</footer>
+		</div>
+
+	</section>
+
+	<div class="popup" id="popup">
+		<div class="popup_body">
+			<div class="popup_content">
+			<div class="popup_close"><a  href="#" id="aa">X</a></div>
+			<div class="popup_title">Свяжитесь со мной</div>
+			<div class="popup_text">Мой Telegram:<a href="https://t.me/Peshok_22" class="ssa">Peshok_22</a> <br>
+			Мой WhatsApp:<a href="https://wa.me/+48721825378" class="ssa">Peshok</a></div>
+		</div>
+		</div>
+
+	</div>
+
+
+	<div id="lang_popup" class="lang_popup">
+		<div class="lang_popup_content">
+			<div class="lang_popup_close"><a href="#">x</a></div>
+			<div class="lang_popup_content_title">Language</div>
+			<div class="lang_popup_content_text"><a href="index.html">RU</a><br><a href="indexen.html">EN</a><br><a href="indexua.html">UA</a></div>
+		</div>
+	</div>
+
+</body>
+</html>
